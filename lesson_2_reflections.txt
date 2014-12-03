@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+	the hidden file .git is created.  This is used I assume to index the files in the directory so they can be tracked as part of a larger project.   
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	This is the area that allows one to stage files prior to a first commit.  This allows one to keep the repository cleaner at the start of a new project.   
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Automatic may overright some commits that should not be included... It is better to manually review the commit prior to making changes...
+	This has been a while since I have added an entry.   

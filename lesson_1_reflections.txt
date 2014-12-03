@@ -1,0 +1,15 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	by zeroing in on the change.  
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	This allows an historical context with a common frame of reference when comparing old and new files.   
+	This also allows you to revert back to an older version if the current version is having problems.   I personally have used this technique on past websites using wordpress who keeps versions of pages and posts.   
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	Pro: great granularity of control.  Con: You risk losing work if a fault occurs while writing code.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	difference occurs between the thoughts of the creators on how best to handle version control.   More likely the service that google docs is providing is different than the service and audience that Git serves.  Primarily Git is used by developers who have a lot of files asociated with a project.  
+How can you use the commands git log and git diff to view the history of files?
+	Git Log will give you the history of commits in the repository and logged..   Gitt diff will give you the diff between two different versions of a file...  \ 
+How might using version control make you more confident to make changes that could break something?
+	This gives a level of confidence that your footprints are stored so reverting back to a previous version is simplified and your ability to debug is easier due to the recorded change..  
+Now that you have your workspace set up, what do you want to try using Git for?
+	This would be a good place to put project one.   Also for version control this may be a tool of choice at least in Open Source community.  However, my experience in corporate would probably view this as a risk to the company and may prefer a more closed system.  
